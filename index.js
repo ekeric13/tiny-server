@@ -86,4 +86,4 @@ app.get('/boxscore', async function(req, res){
   }
 });
 
-app.listen(8665, PROCESS.ENV.HOST || '127.0.0.1');
+app.listen(8665, process.ENV.HOST || '127.0.0.1');
